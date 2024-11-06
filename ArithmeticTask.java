@@ -5,7 +5,7 @@ class ArithmeticTask {
         int result = 2; // result is now 3
         System.out.println(++result);
 
-        result = (--result); // result is now 2
+        result -= 1; // result is now 2
         System.out.println(result);
 
         result *= 2; // result is now 4
