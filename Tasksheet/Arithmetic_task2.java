@@ -1,6 +1,3 @@
-package Tasksheet;
-import Tasksheet.TestCode.*;
-
 class Arithmetic_task2 {
 
     public static void main (String[] args){
