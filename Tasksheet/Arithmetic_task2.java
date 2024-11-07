@@ -1,5 +1,5 @@
 package Tasksheet;
-
+import Tasksheet.TestCode.*;
 
 class Arithmetic_task2 {
 
