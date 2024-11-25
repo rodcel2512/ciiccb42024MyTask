@@ -32,13 +32,13 @@ public class InputDayInWeek_C3 {
                     week = "Sunday";
                     break;
                 default:
-                    week = "Invalid input";
+                    week = "Invalid input number!";
                     break;
             }
             System.out.println("Number equal to week: " + week);
         }
         else{
-            System.out.println("Not valid character!");
+            System.out.println("Character is not valid!");
         }  
     }
 }
