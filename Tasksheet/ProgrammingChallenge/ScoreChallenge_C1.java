@@ -1,6 +1,6 @@
 package ProgrammingChallenge;
 
-public class ScoreChallenge_1 {
+public class ScoreChallenge_C1 {
     public static void main(String[] args) {
         int score;
         score = 85;
