@@ -43,6 +43,9 @@ public void setDay(int day) {
     if (valid(day, month, year)) {
         this.day = (byte) day;
     }
+    else{
+        this.day = (byte) 0;
+    }
 }
 public int getMonth() {
    return month; //add return month
