@@ -1,5 +1,4 @@
 package ProgrammingChallenge;
-import java.util.Arrays;
 import java.util.Scanner;
 public class CheckLargeNumber_C4 {
     public static void main(String[] args) {
@@ -9,8 +8,10 @@ public class CheckLargeNumber_C4 {
 
         System.out.println("Enter 1st number: ");
         nums[0] = sc.nextInt();
+
         System.out.println("Enter 2nd number: ");
         nums[1] = sc.nextInt();
+
         System.out.println("Enter 3rd number: ");
         nums[2] = sc.nextInt();
 
@@ -24,9 +25,9 @@ public class CheckLargeNumber_C4 {
             
             if (nums[i] > large) {
             large = nums[i];
-            System.out.println("The largest number " + large);
         }
     }
+            System.out.println("The largest number " + large);
   }
  }
 }
